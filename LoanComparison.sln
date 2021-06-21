@@ -59,7 +59,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoanComparison.Web.React", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{30DF6DF2-8129-4E5F-A6BA-42C77EB758B1}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Developer task v1 Solution Documentation.pdf = ..\..\Developer task v1 Solution Documentation.pdf
+		Documentation\Developer task v1 Solution Documentation.pdf = Documentation\Developer task v1 Solution Documentation.pdf
 	EndProjectSection
 EndProject
 Global
