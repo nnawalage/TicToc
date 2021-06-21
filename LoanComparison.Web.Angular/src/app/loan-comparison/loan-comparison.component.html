@@ -1,0 +1,103 @@
+<form #loanComparisonForm="ngForm" (ngSubmit)="submitForm(loanComparisonForm)">
+  <div class="row">
+    <div class="col-lg-4 col-1"></div>
+    <div class="col-lg-4 col-10">
+      <div class="row p-0 mt-2 mb-3">
+        <h4>Find Savings Amount</h4>
+      </div>
+      <div class="row mb-4">
+        <label for="borrowingAmount" class="ps-0 mb-2 font-bold"
+          >Borrowing Amount</label
+        >
+        <input
+          type="range"
+          class="form-control-range mb-2"
+          name="borrowingRange"
+          [(ngModel)]="loanDetail.BorrowingAmount"
+          min="0"
+          max="1000000"
+        />
+        <div class="input-group mb-2 p-0">
+          <div class="input-group-prepend">
+            <div class="input-group-text">$</div>
+          </div>
+          <input
+            type="number"
+            #borrowingAmount="ngModel"
+            class="form-control mb-2"
+            name="borrowingAmount"
+            min="0"
+            max="1000000"
+            step="any"
+            [(ngModel)]="loanDetail.BorrowingAmount"
+            placeholder="Enter Borrowing Amount"
+            required
+          />
+        </div>
+        <span
+          class="text-danger ps-0"
+          *ngIf="
+            (loanComparisonForm.submitted ||
+              borrowingAmount.dirty ||
+              borrowingAmount.touched) &&
+            ((borrowingAmount.invalid && borrowingAmount.errors?.required) ||
+              loanDetail.BorrowingAmount <= 0)
+          "
+          >Please enter valid Borrowin Amount</span
+        >
+      </div>
+      <div class="row mb-4">
+        <label for="currentRate" class="ps-0 mb-2 font-bold"
+          >Current Rate</label
+        >
+        <input
+          type="range"
+          class="form-control-range mb-2"
+          name="rateRange"
+          [(ngModel)]="loanDetail.CustomerRate"
+          min="0"
+          max="100"
+        />
+        <input
+          type="number"
+          #currentRate="ngModel"
+          class="form-control mb-2"
+          name="currentRate"
+          min="0"
+          max="100"
+          step="any"
+          [(ngModel)]="loanDetail.CustomerRate"
+          placeholder="Enter Current Rate"
+          required
+        />
+        <div
+          class="text-danger ps-0"
+          *ngIf="
+            (loanComparisonForm.submitted ||
+              currentRate.dirty ||
+              currentRate.touched) &&
+            ((currentRate.invalid && currentRate.errors?.required) ||
+              loanDetail.CustomerRate <= 0)
+          "
+        >
+          Please enter valid Current Rate
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-8 p-0">
+          <button type="submit" class="btn btn-primary btn-lg rounded-pill">
+            <span class="btn-label">
+              Submit <i class="fas fa-long-arrow-alt-right"></i
+            ></span>
+          </button>
+        </div>
+      </div>
+      <div class="row" *ngIf="savingsAmount">
+        <label for="savingsAmount" class="ps-0 font-bold mb-2">Savings</label>
+        <h4 class="saving-amount ps-0">
+          $ {{ savingsAmount | number: "1.2-2" }}
+        </h4>
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanComparison.API", "LoanComparison.API\LoanComparison.API.csproj", "{D9922C70-0C40-44B7-8FF2-D7EC3EE3771A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanComparison.Service", "LoanComparison.Service\LoanComparison.Service.csproj", "{8A107E75-6D30-4588-B4BA-5BF8CD2657CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanComparison.Common", "LoanComparison.Common\LoanComparison.Common.csproj", "{53A15AF7-7557-4ACC-B34A-6B40BE042ED6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanComparison.API.Test", "LoanComparison.API.Test\LoanComparison.API.Test.csproj", "{C4C89629-D310-4ECB-BF5D-5C0F3854CB16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanComparison.Web.Angular", "LoanComparison.Web.Angular", "{174631C8-BDB5-4BB7-A458-17253E6383DF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoanComparison.Web.Angular", "LoanComparison.Web.Angular\", "{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62472"
+		Debug.AspNetCompiler.PhysicalPath = "LoanComparison.Web.Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62472\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62472"
+		Release.AspNetCompiler.PhysicalPath = "LoanComparison.Web.Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62472\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62472"
+		SlnRelativePath = "LoanComparison.Web.Angular\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanComparison.Web.ReactJS", "LoanComparison.Web.ReactJS", "{8B9FA1D3-A77B-4A1A-8FCD-9E1DD87B4427}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoanComparison.Web.React", "LoanComparison.Web.React\", "{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59543"
+		Debug.AspNetCompiler.PhysicalPath = "LoanComparison.Web.React\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59543\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59543"
+		Release.AspNetCompiler.PhysicalPath = "LoanComparison.Web.React\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59543\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59543"
+		SlnRelativePath = "LoanComparison.Web.React\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{30DF6DF2-8129-4E5F-A6BA-42C77EB758B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Developer task v1 Solution Documentation.pdf = ..\..\Developer task v1 Solution Documentation.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9922C70-0C40-44B7-8FF2-D7EC3EE3771A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9922C70-0C40-44B7-8FF2-D7EC3EE3771A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9922C70-0C40-44B7-8FF2-D7EC3EE3771A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9922C70-0C40-44B7-8FF2-D7EC3EE3771A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A107E75-6D30-4588-B4BA-5BF8CD2657CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A107E75-6D30-4588-B4BA-5BF8CD2657CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A107E75-6D30-4588-B4BA-5BF8CD2657CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A107E75-6D30-4588-B4BA-5BF8CD2657CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A15AF7-7557-4ACC-B34A-6B40BE042ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A15AF7-7557-4ACC-B34A-6B40BE042ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A15AF7-7557-4ACC-B34A-6B40BE042ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A15AF7-7557-4ACC-B34A-6B40BE042ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C89629-D310-4ECB-BF5D-5C0F3854CB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C89629-D310-4ECB-BF5D-5C0F3854CB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C89629-D310-4ECB-BF5D-5C0F3854CB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C89629-D310-4ECB-BF5D-5C0F3854CB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCFBEB4C-575B-458B-BDBB-2BE9F3E8968E} = {174631C8-BDB5-4BB7-A458-17253E6383DF}
+		{3F0292D8-758C-46CB-8F36-A4CEE7E02BE9} = {8B9FA1D3-A77B-4A1A-8FCD-9E1DD87B4427}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C221098F-F11C-4A5B-9C8D-C4E15B8C9AAD}
+	EndGlobalSection
+EndGlobal
